@@ -1,0 +1,28 @@
+{
+	"name": "saturday",
+	"description": "About Saturday",
+	"version": "0.0.2",
+	"author": {
+		"name": "Sandro Pasquali",
+		"email": "spasquali@gmail.com",
+		"url": "http://www.the75.com"
+	},
+    "main": "./saturday",
+	"repository": {
+		"type"  : "git",
+		"url"   : "https://github.com/sandro-pasquali/saturday"
+	},
+	"bugs": {
+		"url": "https://github.com/sandro-pasquali/saturday/issues"
+	},
+	"engines": {
+		"node": ">= 0.10.17"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://opensource.org/licenses/MIT"
+	}],
+	"keywords": [
+		"nodejs"
+	]
+}
