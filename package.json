@@ -1,28 +1,40 @@
 {
-	"name": "saturday",
-	"description": "About Saturday",
-	"version": "0.0.2",
-	"author": {
-		"name": "Sandro Pasquali",
-		"email": "spasquali@gmail.com",
-		"url": "http://www.the75.com"
-	},
-    "main": "./saturday",
-	"repository": {
-		"type"  : "git",
-		"url"   : "https://github.com/sandro-pasquali/saturday"
-	},
-	"bugs": {
-		"url": "https://github.com/sandro-pasquali/saturday/issues"
-	},
-	"engines": {
-		"node": ">= 0.10.17"
-	},
-	"licenses": [{
-		"type": "MIT",
-		"url": "http://opensource.org/licenses/MIT"
-	}],
-	"keywords": [
-		"nodejs"
-	]
+  "name": "saturday",
+  "description": "About Saturday",
+  "version": "2.0.0",
+  "author": "Sandro Pasquali <spasquali@gmail.com> (http://www.sandro.xxx)",
+  "main": "saturday.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandro-pasquali/saturday.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandro-pasquali/saturday/issues"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "nodejs"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "surveyor": "^2.0.1",
+    "wikijs": "^3.1.1"
+  },
+  "homepage": "https://github.com/sandro-pasquali/saturday#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "license": "MIT"
 }
